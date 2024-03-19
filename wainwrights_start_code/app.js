@@ -42,7 +42,7 @@ filterNameForm.addEventListener("submit", (event) => {
         })
         displayList(filteredData);
     } else {
-        getAllWaingwrights();  
+        displayList(jsonData); 
     }
 
     
